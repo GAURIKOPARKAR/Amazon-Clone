@@ -3,7 +3,12 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    
 }
+a{
+    color: blue;
+}
+
 .border:hover{
     border: 1.5px solid white;
 }
@@ -16,18 +21,12 @@
     font-size: 14px;
 
 }
-.navbar-fixed{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
 .navbar{
     height: 60px;
-    background-color: #0F1111;
+    width:100%;
+    background-color: #0F1111; 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between
 }
 .logo{
     width: 100px;
@@ -42,11 +41,13 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .icon-location{
     position: relative;
     top: 10px;
     height: 25px;
     width: 21px;
+    font-size: 1rem;
 }
 .search-bar{
     width: 450px;
@@ -62,6 +63,7 @@
     background-color: #e6e6e6;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    font-size: 1rem;
 }
 .search{
     width: 345px;
@@ -109,7 +111,107 @@
     align-content: center;
     flex-wrap: wrap;
 }
+.cart i{
+    font-size: 1.5rem;
+}
 
 /* First Panal */
+
+.panal{
+    height: 40px;
+    width: 100%;
+    background-color: #214848;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-bar{
+    width: 40px;;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 5px;
+}
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.option a{
+    text-decoration: none;
+    font-size: .85rem;
+    margin-left: 30px;
+
+}
+
+/* Main background image */
+
+.main-image{
+
+    width: 100%;
+    height: 350px;
+    background-image: url("Images/main-back.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.content-line{
+    height: 35px;
+    width: 90%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-line a{
+    color: blue;
+}
+/* main content */
+
+
+.content{
+    margin:20px;
+    height: 900px;
+    background-color: rgb(240, 215, 226);
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    
+}
+.box{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.heading-text{
+    width: 280px;
+    height: 30px; 
+    font-size: 21px;
+    background-color: white;
+    color:#0F1111;
+    text-align: center;
+    
+}
+.img1{
+
+    width: 300px;
+    height: 300px;
+    background-image: url("Images/box1-1.jpg");
+    background-size: contain;
+
+}
 
 
